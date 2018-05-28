@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import Image from '../image/image';
+import Image from '../image';
 import './gallery.css';
 
 export default ({ images }) => (
