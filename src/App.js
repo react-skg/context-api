@@ -13,7 +13,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.fetchImages("Mountains");
+    this.fetchImages("kitten");
   }
 
   handleSearchChange = value => {

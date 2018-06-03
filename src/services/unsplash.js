@@ -9,7 +9,7 @@ export default async term => {
       client_id:
         "dae9e10650adba332b3b71f9cecb9d4300497410c5365ba4d91f61df139b3f4a",
       query: term,
-      count: 50
+      per_page: 50
     }
   });
 
