@@ -11,7 +11,7 @@ export class GalleryProvider extends Component {
 	};
 
 	componentDidMount() {
-		this.fetchImages('Mountains');
+		this.fetchImages('kitten');
 	}
 
 	fetchImages = async term => {
