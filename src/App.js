@@ -16,10 +16,6 @@ class App extends Component {
     this.fetchImages("kitten");
   }
 
-  handleSearchChange = value => {
-    this.setState({ term: value });
-  };
-
   fetchImages = async term => {
     this.setState({
       status: "searching",
@@ -47,11 +43,7 @@ class App extends Component {
 
     return (
       <div className="app">
-        <div className="app-search-container">
-          <div className="app-search-wrapper">
-            <SearchForm fetchImages={this.fetchImages} />
-          </div>
-        </div>
+        <SearchForm fetchImages={this.fetchImages} />
 
         {status === "searching" && (
           <h2 className="app-result-searching">Searching for {term} </h2>
