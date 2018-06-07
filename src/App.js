@@ -59,7 +59,7 @@ class App extends Component {
         )}
 
         <div className="app-images-container">
-          {images.map(image => <Image image={image} key={image.id} />)}
+          {images.map(image => <Image image={image} />)}
         </div>
       </div>
     );
